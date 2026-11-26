@@ -1,0 +1,13 @@
+study,year,design,design_group,treatment,surgery,country,cancer,modality,n_total,n_ig,n_cg,quality
+Laura 2023,2023,RCS,Observational,NCR+S,MIE + open esophagectomy,UK,EC,E+N+P,79,51,28,NOS 7
+Thijs 2022,2022,RCS,Observational,NCR+S,MIE-IL,UK,EC,E+N+P,95,52,43,NOS 7
+Sophie 2022,2022,RCT,RCT,NCR+S,Open esophagectomy + total gastrectomy,UK,EC+GC,E+N+P,48,24,24,RoB2 (S1 Fig)
+Yuma 2022,2022,RCS,Observational,S,Distal + total gastrectomy,Japan,GC,E+N,58,15,43,NOS 7
+Laura 2020,2020,PCS,Observational,NAC+S,Open esophagectomy,UK,EC,E+N+P,111,72,39,NOS 8
+Yuji 2020,2020,RCS,Observational,NAC+S,MIE + open esophagectomy,Japan,ESCC,E,48,23,25,NOS 7
+Christensen 2018,2018,PCS,Observational,NCR+S,MIE-IL + RAMIE + open esophagectomy,Denmark,GOJ,E,50,21,29,NOS 8
+Enrico 2018,2018,RCT,RCT,NCR+S,MIS + open surgery,Canada,EC+GC,E+N,51,26,25,RoB2 (S1 Fig)
+Yuji 2017,2017,RCS,Observational,NCR+S,MIE + open esophagectomy,Japan,EC,E,52,31,21,NOS 7
+Kazuyoshi 2016,2016,Prospective non-RCT,Observational,S,MIG + open gastrectomy,Japan,GC,E+N,90,22,68,NOS 8
+Haruhiko 2014,2014,Prospective non-RCT,Observational,S,MIG + open gastrectomy,Japan,GC,E,72,18,54,NOS 8
+Daniela 2012,2012,Pragmatic non-RCT,Observational,NCR+S,MIE + open esophagectomy,Netherlands,EC,E,78,39,39,NOS 8

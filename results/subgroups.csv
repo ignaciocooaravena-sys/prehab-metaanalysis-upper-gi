@@ -1,0 +1,21 @@
+outcome,subgroup_var,group,k,OR_FE,lo_FE,hi_FE,OR_RE,lo_RE,hi_RE,Q_between,df,p_between
+overall_complications,Diseño,Observational,7,0.596,0.388,0.917,0.596,0.335,1.062,0.021,1,0.886
+overall_complications,Diseño,RCT,1,0.543,0.164,1.796,0.543,0.164,1.796,0.021,1,0.886
+overall_complications,Tipo de cáncer,EC,4,0.639,0.398,1.027,0.639,0.296,1.380,0.497,2,0.780
+overall_complications,Tipo de cáncer,EC+GC,1,0.543,0.164,1.796,0.543,0.164,1.796,0.497,2,0.780
+overall_complications,Tipo de cáncer,GC,3,0.429,0.154,1.199,0.356,0.013,9.382,0.497,2,0.780
+overall_complications,Tratamiento,Neoadyuvancia + cirugía,5,0.625,0.403,0.972,0.625,0.335,1.167,0.435,1,0.509
+overall_complications,Tratamiento,Solo cirugía,3,0.429,0.154,1.199,0.356,0.013,9.382,0.435,1,0.509
+overall_complications,Modalidad,E,2,0.728,0.272,1.949,0.395,0.000,13846446.426,0.294,2,0.863
+overall_complications,Modalidad,E+N,3,0.627,0.271,1.453,0.627,0.099,3.965,0.294,2,0.863
+overall_complications,Modalidad,E+N+P,3,0.543,0.322,0.916,0.543,0.172,1.711,0.294,2,0.863
+pulmonary_complications,Diseño,Observational,8,0.557,0.362,0.855,0.608,0.271,1.366,0.274,1,0.601
+pulmonary_complications,Diseño,RCT,1,0.395,0.117,1.330,0.395,0.117,1.330,0.274,1,0.601
+pulmonary_complications,Tipo de cáncer,EC,6,0.476,0.301,0.752,0.485,0.216,1.088,4.083,2,0.130
+pulmonary_complications,Tipo de cáncer,EC+GC,1,0.395,0.117,1.330,0.395,0.117,1.330,4.083,2,0.130
+pulmonary_complications,Tipo de cáncer,GC,2,1.788,0.513,6.229,1.997,0.000,49212.220,4.083,2,0.130
+pulmonary_complications,Tratamiento,Neoadyuvancia + cirugía,7,0.465,0.303,0.713,0.467,0.250,0.871,4.002,1,0.045
+pulmonary_complications,Tratamiento,Solo cirugía,2,1.788,0.513,6.229,1.997,0.000,49212.220,4.002,1,0.045
+pulmonary_complications,Modalidad,E,5,0.711,0.372,1.360,0.711,0.227,2.229,5.886,2,0.053
+pulmonary_complications,Modalidad,E+N,1,6.297,0.543,72.966,6.297,0.543,72.966,5.886,2,0.053
+pulmonary_complications,Modalidad,E+N+P,3,0.395,0.233,0.671,0.395,0.123,1.265,5.886,2,0.053
