@@ -1,0 +1,7 @@
+outcome,analysis,k,OR_FE,lo_FE,hi_FE,OR_RE,lo_RE,hi_RE,p_RE,PI_lo,PI_hi,I2,tau2,janssen_estimate
+overall_complications,Solo GI alto,8,0.590,0.394,0.884,0.590,0.362,0.961,0.038,0.356,0.978,0.000,0.000,
+overall_complications,GI alto + Janssen 2019,9,0.861,0.665,1.116,0.712,0.445,1.139,0.134,0.284,1.781,36.695,0.109,ajustado
+hospital_readmission,Solo GI alto,4,1.061,0.519,2.170,1.061,0.311,3.615,0.888,0.155,7.272,0.000,0.052,
+hospital_readmission,GI alto + Janssen 2019,5,1.249,0.776,2.009,1.249,0.637,2.449,0.412,0.577,2.703,0.000,0.000,ajustado
+anastomotic_leakage,Solo GI alto,7,0.940,0.460,1.918,0.924,0.352,2.429,0.848,0.241,3.544,0.000,0.118,
+anastomotic_leakage,GI alto + Janssen 2019,8,1.415,0.811,2.468,1.222,0.513,2.911,0.601,0.252,5.922,12.287,0.281,crudo (solo CRC)

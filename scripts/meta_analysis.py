@@ -126,7 +126,7 @@ def q_between(df, group_col):
 
 
 # ----------------------------------------------------------------------------- plots
-def forest(sub, fe, re, title, path):
+def forest(sub, fe, re, title, path, fe_label="Efectos fijos (como el paper)"):
     sub = sub.sort_values("year")
     k = len(sub)
     fig, ax = plt.subplots(figsize=(10, 0.42 * (k + 5) + 1.2))
@@ -147,7 +147,7 @@ def forest(sub, fe, re, title, path):
         ax.text(-0.03, yy, label, va="center", ha="right", fontsize=9, weight="bold", transform=tl)
         ax.text(1.03, yy, f"{m:.2f} [{l:.2f}, {h:.2f}]", va="center", fontsize=8.5, weight="bold", transform=tl)
 
-    diamond(fe, 1.4, "#999999", "Efectos fijos (como el paper)")
+    diamond(fe, 1.4, "#999999", fe_label)
     diamond(re, 0.5, "#5B2C83", "Efectos aleatorios REML-HKSJ")
     if not np.isnan(re["pi_lo"]):
         ax.plot([np.exp(re["pi_lo"]), np.exp(re["pi_hi"])], [-0.2, -0.2], color="#5B2C83", lw=3, alpha=0.35)

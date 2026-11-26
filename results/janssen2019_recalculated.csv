@@ -1,0 +1,8 @@
+outcome,pct_prehab,pct_control,OR_crude_calc,lo_crude,hi_crude,OR_unadj_reported,OR_adj_reported,lo_adj,hi_adj
+delirium,8.240,11.667,0.680,0.395,1.169,0.680,0.560,0.320,0.980
+any_complication_other_than_delirium,40.824,36.944,1.177,0.851,1.629,1.090,1.120,0.800,1.570
+clavien_dindo_III_V,14.232,8.889,1.701,1.032,2.803,,,,
+unplanned_icu_admission,11.236,7.500,1.561,0.904,2.695,1.560,1.540,0.860,2.750
+readmission_30d,8.397,6.111,1.408,0.762,2.602,1.410,1.420,0.750,2.680
+mortality_inhospital_or_30d,,,,,,1.840,1.500,0.610,3.720
+anastomotic_leakage_CRC_only,7.107,2.787,2.668,1.097,6.487,,,,
